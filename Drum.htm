@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Drum set</title>
+    </head>
+    <style>
+        button{
+            background-color: transparent;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           box-shadow: black 2px 3px 4px ;
+           margin-left: 30px;
+        }
+    </style>
+    <body background="d:\drum.jpg">
+        
+            <br><br><br><br><br> 
+            <button class="cc"><div data-key="65" class="key">
+                <kbd>A</kbd><br>
+                <span class="sound">Crash cymbal</span>
+              </div></button>
+              
+            <button class="ht"><div data-key="83" class="key">
+                <kbd>S</kbd><br>
+                <span class="sound">high tom</span>
+              </div></button>
+            <button class="bd"><div data-key="68" class="key">
+                <kbd>D</kbd><br>
+                <span class="sound">bass Drum</span>
+              </div></button>
+            <button class="mt"><div data-key="70" class="key">
+                <kbd>F</kbd><br>
+                <span class="sound">mid tom</span>
+              </div></button>
+              <button class="rc"><div data-key="71" class="key">
+                <kbd>G</kbd><br>
+                <span class="sound">ride cymbal</span>
+              </div></button>
+            <button class="ft"><div data-key="72" class="key">
+                <kbd>H</kbd><br>
+                <span class="sound">floor tom</span>
+              </div></button>
+            <button class="hh"><div data-key="74" class="key">
+                <kbd>J</kbd><br>
+                <span class="sound">hi hats </span>
+              </div></button>
+            <button class="sd">
+                <div data-key="75" class="key">
+                    <kbd>K</kbd><br>
+                    <span class="sound">snare drum</span>
+                  </div>
+            </button>
+         
+        
+          <audio data-key="65" src="d:\Ccymbal.wav"></audio>
+          <audio data-key="83" src="D:\sound\st.mp3"></audio>
+          <audio data-key="68" src="D:\sound\bd.mp3"></audio>
+          <audio data-key="70" src="D:\sound\mt.mp3"></audio>
+          <audio data-key="71" src="D:\sound\rc.mp3"></audio>
+          <audio data-key="72" src="D:\sound\ft.mp3"></audio>
+          <audio data-key="74" src="D:\sound\hh.mp3"></audio>
+          <audio data-key="75" src="D:\sound\sd.mp3"></audio>
+        
+        <script src="D:\DrumSet\Drum.js"></script>
+    </body>
+</html>
